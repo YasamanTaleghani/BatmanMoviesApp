@@ -1,4 +1,4 @@
-package com.example.batmanmoviesapp.ui.main
+package com.example.batmanmoviesapp.ui.movies
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
