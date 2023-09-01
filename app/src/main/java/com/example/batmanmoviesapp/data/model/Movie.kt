@@ -4,13 +4,13 @@ import com.google.gson.annotations.SerializedName
 
 data class Movie (
     @SerializedName("Title")
-    val title: String = "",
+    val title: String? = "",
     @SerializedName("Year")
-    val year: String = "",
+    val year: String? = "",
     @SerializedName("imdbID")
-    val imdbID: String = "",
+    val imdbID: String? = "",
     @SerializedName("Type")
-    val Type: String = "",
+    val type: String? = "",
     @SerializedName("Poster")
-    val Poster: String = "",
+    val poster: String? = "",
 )
